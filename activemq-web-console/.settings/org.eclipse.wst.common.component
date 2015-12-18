@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="activemq-web-console">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <dependent-module archiveName="activemq-web-5.11.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activemq-web/activemq-web">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activemq-pool-5.11.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activemq-pool/activemq-pool">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activemq-jms-pool-5.11.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activemq-jms-pool/activemq-jms-pool">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activemq-client-5.11.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activemq-client/activemq-client">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activemq-stomp-5.11.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activemq-stomp/activemq-stomp">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activemq-broker-5.11.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activemq-broker/activemq-broker">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activemq-openwire-legacy-5.11.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activemq-openwire-legacy/activemq-openwire-legacy">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activemq-spring-5.11.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activemq-spring/activemq-spring">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activemq-console-5.11.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activemq-console/activemq-console">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="activemq-kahadb-store-5.11.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/activemq-kahadb-store/activemq-kahadb-store">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="activemq-web-console"/>
+        <property name="java-output-path" value="/activemq-web-console/target/classes"/>
+        <property name="component.exclusion.patterns" value="WEB-INF/lib/jetty*.jar,WEB-INF/lib/servlet*.jar"/>
+    </wb-module>
+</project-modules>

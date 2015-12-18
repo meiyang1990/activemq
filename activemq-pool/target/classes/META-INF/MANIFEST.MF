@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Vendor: The Apache Software Foundation
+Implementation-Title: ActiveMQ :: Pool
+Implementation-Version: 5.11.0
+Implementation-Vendor-Id: org.apache.activemq
+Specification-Vendor: The Apache Software Foundation
+Build-Jdk: 1.6.0_26
+Built-By: lenovo
+Created-By: Maven Integration for Eclipse
+Specification-Title: ActiveMQ :: Pool
+Specification-Version: 5.11.0
+
